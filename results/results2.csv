@@ -1,3 +1,4 @@
+num_threads,block_size,process_time,thread_time,overall_time,count_hate,count_love,most_common
 1,1632183637,6441,1312,7754,34916,387086,love
 2,816091818,2953,757,3711,34916,387086,love
 3,544061212,1520,589,2109,34916,387086,love
