@@ -8,8 +8,8 @@
 - Rian Freitas
 
 ### Requerimentos
-g++ == 11.3.0
-Python == 3.10.6
+- g++ == 11.3.0
+- Python == 3.10.6
 
 ### Instruções de uso
 - Primeiramente, rode o _script_ em python `gerar_texto.py`. Ele pegará o arquivo `shakespeare.txt` e multiplicará o conteúdo do texto em 300 vezes, a fim de criar uma quantidade massiva de dados para nosso experimento.
