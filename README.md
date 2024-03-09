@@ -13,7 +13,16 @@ Python == 3.10.6
 
 ### Instruções de uso
 - Primeiramente, rode o _script_ em python `gerar_texto.py`. Ele pegará o arquivo `shakespeare.txt` e multiplicará o conteúdo do texto em 300 vezes, a fim de criar uma quantidade massiva de dados para nosso experimento.
-- Depois, compile o códigio `paralelismo.cpp` para criar o experimento. No terminal, será mostrado os resultados para cada número de _threads_, de 1 a 100, sequencialmente.
+- Depois, compile o códigio `paralelismo.cpp` para criar o experimento. Rode a seguinte linha no terminal:
+
+``
+g++ paralelismo.cpp -o main
+``
+- Por fim, apenas abra o programa resultante da compilação escrevendo:
+``
+./main
+
+No terminal, será mostrado os resultados para cada número de _threads_, de 1 a 100, sequencialmente. 
 
 ### Resultados
 Os resultados do serão disponibilizados no formato CSV (comma separated values), os quais serão explicados, *em ordem*, a seguir:
