@@ -21,7 +21,7 @@ g++ paralelismo.cpp -o main
 - Por fim, apenas abra o programa resultante da compilação escrevendo:
 ``
 ./main
-
+``
 No terminal, será mostrado os resultados para cada número de _threads_, de 1 a 100, sequencialmente. 
 
 ### Resultados
