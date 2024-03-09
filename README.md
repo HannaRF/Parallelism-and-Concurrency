@@ -22,6 +22,7 @@ g++ paralelismo.cpp -o main
 ``
 ./main
 ``
+
 No terminal, será mostrado os resultados para cada número de _threads_, de 1 a 100, sequencialmente. 
 
 ### Resultados
