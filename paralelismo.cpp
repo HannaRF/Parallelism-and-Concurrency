@@ -77,6 +77,8 @@ void countWords(std::string block, int &count_hate, int &count_love) {
 
 int main () {
 
+  std::cout << "num_threads,block_siz,process_time,thread_time,overall_time,count_hate,count_love,most_common" << std::endl;
+  
   for (int i = 1; i <= num_threads_max; i++) {
     auto start_overall_time = std::chrono::high_resolution_clock::now();
     int size;
